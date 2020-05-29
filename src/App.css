@@ -22,16 +22,20 @@
   padding-top: 10px;
 }
 
+.border {
+  border-bottom: 1px solid #282c34;
+}
+
 .row {
   display: flex;
-  border-top: 1px solid #282c34;
+  border-top: 1px solid gray;
 }
 
 .column {
   flex: 10%;
   min-width: 1em;
   min-height: 2em;
-  border-left: 1px solid #282c34;
+  border-left: 1px solid gray;
 }
 
 .column:hover{
